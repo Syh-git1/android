@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--进度条属性-->
+    <declare-styleable name="MyView">
+        <attr name="left" format="dimension"/>
+        <attr name="top" format="dimension"/>
+        <attr name="right" format="dimension"/>
+        <attr name="bottom" format="dimension"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="arcColor" format="color"/>
+        <attr name="arcbgColor" format="color"/>
+        <attr name="arcprogressColor" format="color"/>
+    </declare-styleable>
+</resources>

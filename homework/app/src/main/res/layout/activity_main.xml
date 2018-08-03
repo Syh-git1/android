@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#addafd"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <com.example.suyunhe.homework.MyView
+        android:id="@+id/myView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <com.example.suyunhe.progressbar.MyView
+            android:id="@+id/tasks_view"
+            android:layout_width="233dp"
+            android:layout_height="233dp"
+            app:arcColor="@color/white1"
+            app:arcbgColor="@color/white2"
+            app:arcprogressColor="@color/colorRed"
+            app:strokeWidth="50dip"
+            />
+    </LinearLayout-->
+    <!--TextView
+        android:id="@+id/txv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txv"
+        android:layout_centerHorizontal="true"
+        android:text="Button"
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="226dp" /-->
+
+</RelativeLayout>
